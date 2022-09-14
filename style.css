@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main {
+    overflow: hidden;
+}
+html {
+    scroll-behavior: smooth;/* cuộn chuột mượt */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* *********HEADER********** */
+#header {
+    position: fixed;
+    height: 46px;
+    background-color: #7375c1;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+/* làm category-menu  */
+#category-menu {
+    display: inline-block;
+    list-style-type: none;
+}
+#category-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+#category-menu > li > a {
+    color: #fff;
+    transform: uppercase;
+}
+#category-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#category-menu li a:hover {
+    color: #7375c1;
+    background-color: #fff;
+    display: block;
+    font-weight: bolder;
+}
+
+/* *************HẾT HEADER**************** */
+.content {
+    display: inline-block;
+}
